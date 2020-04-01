@@ -1,0 +1,286 @@
+@media (max-width:650px) {
+    @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat&display=swap');
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: sans-serif;
+    }
+p{
+    font-family: 'Baloo Da 2', cursive;
+}
+    /* navbar styling */
+    .navbar ul {
+        display: flex;
+    }
+
+    .logo {
+        display: inline;
+        width: auto;
+        margin: 5px;
+        float: left;
+    }
+
+    .logo i {
+        margin: 0px;
+        color: #0c0b0c;
+    }
+
+    .navbar {
+        height: 42px;
+        width: 100%;
+
+        /* background: linear-gradient(to right,#3409de,#eb0a0a); */
+        background-color: #de7119;
+
+    }
+
+    .logo_head h4 {
+
+        font-family: 'Bree Serif', serif;
+    }
+
+    .logo_head {
+        color: #011925;
+        font-size: 28px;
+        text-align: center;
+        width: 207px;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .nav_item {
+        margin: 5px;
+        float: right;
+    }
+
+    nav_button {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav_button div {
+        margin: 5px 10px 5px 0px;
+        width: 6px;
+        height: 6px;
+        background-color: rgb(11, 12, 12);
+
+        border-radius: 50px;
+    }
+
+    .navbar ul li {
+        display: inline-block;
+
+    }
+
+    /* centre content styling */
+    .centre_content {
+        font-size: 19px;
+        font-weight: 500;
+        width: 95%;
+        margin: 15px auto;
+        text-align: center;
+
+    }
+
+    .centre_img {
+        width: 235px;
+        height: 160px;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .centre_img img {
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .centre_button {
+        margin: 15px auto;
+        width: 150px;
+    }
+
+    .centre_button button {
+        font-size: 17px;
+        background-color: orange;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-weight: 700;
+        text-align: center;
+        margin: auto;
+        width: 150px;
+        height: 50px;
+    }
+
+    .centre_button button:hover {
+        background-color: red;
+    }
+
+
+    /* centre images collection styling */
+
+    .title_collection {
+        font-size: 20px;
+font-weight: 600;
+        text-align: center;
+        width: 200px;
+        margin: auto;
+    }
+
+    .img_collection {
+        width: 98%;
+        height: 290px;
+        display: flex;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        flex-wrap: nowrap;
+    }
+
+    .images {
+        margin: auto 20px;
+        width: 201px;
+        height: 200px;
+        flex-basis: auto;
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+
+    .img_div {
+        width: 210px;
+        height: 160px;
+    }
+
+    .images img {
+        border-radius: 5px;
+
+        width: 100%;
+        height: 100%;
+    }
+
+    .collection_name{
+        text-align: center;
+        margin:5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+     .collection_name button {
+        font-size: 15px;
+        background-color: rgb(6, 102, 180);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-weight: 400;
+        
+        
+
+        width: 100px;
+        height: 25px;
+    }
+
+
+
+
+
+/* searchbox styling */
+.search_box{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 15px auto;
+    text-align: center;
+    height: 85px;
+}
+.search_input{
+   
+    height:60px;
+    width:300px;
+
+}
+.search{
+    cursor: pointer;
+    padding:3px 13px;
+    width: 250px;
+    background:#865f1966;
+    margin: 5px 10px;
+    height: 33px;
+    border: none;
+    border-radius: 50px;
+    border: 1px solid red;
+
+}
+.search_button button{
+    font-size: 15px;
+    background-color: rgb(232,56,56);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-weight: 400;
+    margin: 8px 5px;
+    
+
+    width: 100px;
+    height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* footer styling */
+    footer {
+        /* background: linear-gradient(to right,#3409de,#eb0a0a); */
+        background-color: #de7119;
+    }
+
+
+    .social {
+        width: 86px;
+        margin: auto;
+        text-align: center;
+        display: flex;
+    }
+
+    .social i {
+        margin: 10px 5px;
+        color: rgb(17, 17, 16);
+        font-size: 1.3em;
+    }
+
+    .fa-2x {}
+
+    .copyright {
+        font-size: 12px;
+        color: rgb(12, 12, 11);
+        width: auto;
+        text-align: center;
+        margin: auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
